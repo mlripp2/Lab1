@@ -1,0 +1,140 @@
+body {
+    font-family: impact, sans-serif;
+    background-color: white;  
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 2px;
+}
+h4{
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+#head{
+    font-family: 'futura';
+    font-stretch: extra-expanded; 
+    color: white;
+    background: #B84DDB;
+    padding: 10px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, sans-serif;  
+    font-size: 15px;
+
+}
+p{
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 200;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+ul{
+    font-family: Verdana, Geneva, sans-serif;;
+    font-weight: .5;
+    padding-top: 1px;
+    margin-left: 30px;
+}
+h3 {
+    font-family: Verdana, Geneva, sans-serif;  
+    margin-left: 30px;
+}
+h5{
+    padding-top: .5em;
+    font-family: Verdana, Geneva, sans-serif;  
+    margin-left: 30px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+h6{
+    font-family: Verdana, Geneva, sans-serif;  
+    margin-left: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+h2,div, span {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#clock{
+    position:absolute;
+    color: black;
+    z-index:1;
+    bottom: 0;
+    left: 30px;
+    font-size: 32px;
+    font:'futura';  
+    letter-spacing: 1px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: white;
+    background: rgba(255,255,255,0.9);
+}
+#frame{
+    background-color: #E0E0EB; 
+    margin: 15px auto 15px;
+    box-shadow: 0 0 5px #777777;
+
+}
+#wrapper {
+    width: 960px;
+    margin: 15px auto;
+    padding: 10px;
+    line-height: 1.2;
+
+}
+#map {
+	height: 450px;
+	margin: 15px auto 15px;
+    box-shadow: 0 0 10px #777777;
+    border-width: 8px;
+}
+
+.legend, .temporal-legend {
+    padding: 6px 10px;
+    font: 14px/16px 'futura';
+    color: black;
+    background: white;
+    background: rgba(255,255,255,0.9);
+    border-radius: 5px;
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.45);
+}
+#legendTitle {
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: 100%;
+
+}
+.symbolsContainer {
+    float: left;
+	margin-left: 50px;
+}
+.legendCircle {
+     border-radius:50%; 
+     border: 1px solid #175f8f; 
+     background: rgba(4, 135, 104, .4);
+	 display: inline-block;
+}
+.legendValue {
+    position: absolute;
+    right: 20px;
+}
+.range-slider { 
+    width: 100px;
+}
+.temporal-legend {
+    font-size: 1.2em;
+    text-align: center;
+}
